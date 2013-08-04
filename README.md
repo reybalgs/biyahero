@@ -1,6 +1,6 @@
 # Biyahero
 
-The Philippine commuter's companion
+_The Philippine commuter's companion_
 
 ## What is ``Biyahero''?
 
@@ -28,3 +28,10 @@ Not everybody is familiar with the major transport options in the Metro, and
 asking around can only get you so much information. BiyaHero provides its users
 with up-to-date information regarding the major public transport options in the
 Metro, like buses, jeepneys and elevated rail transit (LRT and MRT).
+
+## Anything else about this app?
+
+This is Aldo Rey Balagulan's entry for the 
+[Philippine Transit App Challenge][App Transit URL].
+
+[App Transit URL]: http://philippine-transit.hackathome.com/ 
