@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 		
 		Iterator<String> iterator = list.iterator();
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-				MainActivity.this, R.layout.main_menu_list_item, list);
+				MainActivity.this, R.layout.main_list_item, list);
 		
 		while(iterator.hasNext()) {
 			Log.v("Main Activity", iterator.next());
