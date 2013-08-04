@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-biyahero
-========
-
-The Philippine commuter's companion
-=======
 # Biyahero
 
 _The Philippine commuter's companion_
@@ -41,4 +35,3 @@ This is Aldo Rey Balagulan's entry for the
 [Philippine Transit App Challenge][App Transit URL].
 
 [App Transit URL]: http://philippine-transit.hackathome.com/ 
->>>>>>> develop
