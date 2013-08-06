@@ -16,6 +16,8 @@ import android.widget.ListView;
 
 public class MainActivity extends ListActivity {
 	
+	private static String activity_tag = "MAIN_ACTIVITY";
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -43,8 +45,20 @@ public class MainActivity extends ListActivity {
 		String item = (String) getListAdapter().getItem(position);
 		if(item.equals("My Routes")) {
 			// User has selected My Routes
-			Log.v("MainActivity", "User selected MyRoutes");
+			Log.v(activity_tag, "User selected MyRoutes");
 			Intent intent = new Intent(this, MyRoutes.class);
+			startActivity(intent);
+		}
+		else if(item.equals("View Map")) {
+			// User has selected View Map
+			Log.v(activity_tag, "User selected ViewMap");
+			Intent intent = new Intent(this, ViewMap.class);
+			startActivity(intent);
+		}
+		else if(item.equals("Transit Info")) {
+			// User has selected Transit Info
+			Log.v(activity_tag, "User selected TransitInfo");
+			Intent intent = new Intent(this, TransitInfo.class);
 			startActivity(intent);
 		}
 	}
