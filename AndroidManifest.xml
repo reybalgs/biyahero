@@ -15,12 +15,15 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.baliwanco.biyahero.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name" android:parentActivityName="com.baliwanco.biyahero.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="MyRoutes" 
+            android:label="@string/app_name"
+            android:parentActivityName="com.baliwanco.biyahero.MainActivity">
         </activity>
     </application>
 
