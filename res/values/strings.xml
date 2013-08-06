@@ -6,11 +6,12 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_my_routes">My Routes</string>
     <string name="view_map_placeholder">View Map goes here I think!</string>
+    <string name="traffic_advisory_placeholder">Traffic advisory should go here</string>
 
     <!-- String array for main menu list view strings -->
     <string-array name="main_menu_items">
         <item>My Routes</item>
-        <item>Traffic Advisories</item>
+        <item>Traffic Advisory</item>
         <item>Transit Info</item>
         <item>View Map</item>
     </string-array>
@@ -25,5 +26,6 @@
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
+    <string name="title_activity_traffic_advisory">BiyaHero</string>
 
 </resources>

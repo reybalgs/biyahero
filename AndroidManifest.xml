@@ -43,6 +43,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.baliwanco.biyahero.MainActivity" />
         </activity>
+        <activity
+            android:name="com.baliwanco.biyahero.TrafficAdvisory"
+            android:label="@string/title_activity_traffic_advisory"
+            android:parentActivityName="com.baliwanco.biyahero.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.baliwanco.biyahero.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

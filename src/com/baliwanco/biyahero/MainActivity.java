@@ -61,6 +61,12 @@ public class MainActivity extends ListActivity {
 			Intent intent = new Intent(this, TransitInfo.class);
 			startActivity(intent);
 		}
+		else if(item.equals("Traffic Advisory")) {
+			// User has selected Traffic Advisory
+			Log.v(activity_tag, "User has selected TrafficAdvisory");
+			Intent intent = new Intent(this, TrafficAdvisory.class);
+			startActivity(intent);
+		}
 	}
  	
 	@Override
