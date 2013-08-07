@@ -7,16 +7,20 @@ public class Route {
 	 * The Route class used for defining routes.
 	 */
 	private String name;
-	private String transit_type;
 	private double total_distance;
 	private ArrayList<Stop> stops;
 	
-	public String getTransit_type() {
-		return transit_type;
+	public int getNumStops() {
+		return stops.size();
 	}
-	public void setTransit_type(String transit_type) {
-		this.transit_type = transit_type;
+	
+	public Route(String name, double total_distance, ArrayList<Stop> stops) {
+		super();
+		this.name = name;
+		this.total_distance = total_distance;
+		this.stops = stops;
 	}
+	
 	public String getName() {
 		return name;
 	}
