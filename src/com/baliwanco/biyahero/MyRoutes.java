@@ -8,7 +8,6 @@ import com.baliwanco.biyahero.model.Stop;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.app.ListActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
