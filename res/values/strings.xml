@@ -7,6 +7,9 @@
     <string name="title_activity_my_routes">My Routes</string>
     <string name="view_map_placeholder">View Map goes here I think!</string>
     <string name="traffic_advisory_placeholder">Traffic advisory should go here</string>
+    
+    <!-- UI-related strings -->
+    <string name="add_route">Add a Route</string>
 
     <!-- String array for main menu list view strings -->
     <string-array name="main_menu_items">
