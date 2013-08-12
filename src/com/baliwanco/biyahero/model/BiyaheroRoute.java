@@ -2,7 +2,7 @@ package com.baliwanco.biyahero.model;
 
 import java.util.ArrayList;
 
-public class Route {
+public class BiyaheroRoute {
 	/**
 	 * The Route class used for defining routes.
 	 */
@@ -14,7 +14,7 @@ public class Route {
 		return stops.size();
 	}
 	
-	public Route(String name, double total_distance, ArrayList<Stop> stops) {
+	public BiyaheroRoute(String name, double total_distance, ArrayList<Stop> stops) {
 		super();
 		this.name = name;
 		this.total_distance = total_distance;

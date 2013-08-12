@@ -2,8 +2,8 @@ package com.baliwanco.biyahero;
 
 import java.util.ArrayList;
 
-import com.baliwanco.biyahero.model.Route;
-import com.baliwanco.biyahero.model.RouteAdapter;
+import com.baliwanco.biyahero.model.BiyaheroRoute;
+import com.baliwanco.biyahero.model.BiyaheroRouteAdapter;
 import com.baliwanco.biyahero.model.Stop;
 
 import android.os.Bundle;
@@ -26,18 +26,18 @@ public class MyRoutes extends Activity {
 		ListView list = (ListView) findViewById(R.id.routes_list_view);
 		
 		// Create some dummy values
-		ArrayList<Route> routes_list = new ArrayList<Route>();
+		ArrayList<BiyaheroRoute> routes_list = new ArrayList<BiyaheroRoute>();
 		routes_list = createDummyRoutes();
 		
 		// Create the adapter
-		RouteAdapter adapter = new RouteAdapter(MyRoutes.this,
+		BiyaheroRouteAdapter adapter = new BiyaheroRouteAdapter(MyRoutes.this,
 				R.layout.route_list_item, routes_list);
 		
 		list.setAdapter(adapter);
 	}
 	
-	public ArrayList<Route> createDummyRoutes() {
-		ArrayList<Route> routes = new ArrayList<Route>();
+	public ArrayList<BiyaheroRoute> createDummyRoutes() {
+		ArrayList<BiyaheroRoute> routes = new ArrayList<BiyaheroRoute>();
 		ArrayList<Stop> stops = new ArrayList<Stop>();
 		
 		// Create the dummy stops
@@ -47,7 +47,7 @@ public class MyRoutes extends Activity {
 		stops.add(stop2);
 		
 		for(int i = 0; i < 3; i++) {
-			Route route = new Route("Route " + (i + 1), 10.00 + (i + 1), stops);
+			BiyaheroRoute route = new BiyaheroRoute("Route " + (i + 1), 10.00 + (i + 1), stops);
 			routes.add(route);
 		}
 		return routes;

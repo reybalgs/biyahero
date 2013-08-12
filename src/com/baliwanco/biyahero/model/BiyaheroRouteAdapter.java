@@ -12,8 +12,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-public class RouteAdapter extends ArrayAdapter<Route> {
-	List<Route> routes;
+public class BiyaheroRouteAdapter extends ArrayAdapter<BiyaheroRoute> {
+	List<BiyaheroRoute> routes;
 	private static String TAG = "RouteAdapter";
 	
 	@Override
@@ -37,7 +37,7 @@ public class RouteAdapter extends ArrayAdapter<Route> {
 	    		R.id.route_stops_count);
 	    
 	    // Get the given route position
-	    Route route = routes.get(position);
+	    BiyaheroRoute route = routes.get(position);
 	    
 	    Log.v(TAG, "Route name is " + route.getName());
 	    Log.v(TAG, "Number of stops for route is " + route.getNumStops());
@@ -50,37 +50,37 @@ public class RouteAdapter extends ArrayAdapter<Route> {
 	    return listView;
 	}
 	
-	public RouteAdapter(Context context, int resource, int textViewResourceId,
-			List<Route> objects) {
+	public BiyaheroRouteAdapter(Context context, int resource, int textViewResourceId,
+			List<BiyaheroRoute> objects) {
 		super(context, resource, textViewResourceId, objects);
 		routes = objects;
 		// TODO Auto-generated constructor stub
 	}
 
-	public RouteAdapter(Context context, int resource, int textViewResourceId,
-			Route[] objects) {
+	public BiyaheroRouteAdapter(Context context, int resource, int textViewResourceId,
+			BiyaheroRoute[] objects) {
 		super(context, resource, textViewResourceId, objects);
 		// TODO Auto-generated constructor stub
 	}
 
-	public RouteAdapter(Context context, int resource, int textViewResourceId) {
+	public BiyaheroRouteAdapter(Context context, int resource, int textViewResourceId) {
 		super(context, resource, textViewResourceId);
 		// TODO Auto-generated constructor stub
 	}
 
-	public RouteAdapter(Context context, int textViewResourceId,
-			List<Route> objects) {
+	public BiyaheroRouteAdapter(Context context, int textViewResourceId,
+			List<BiyaheroRoute> objects) {
 		super(context, textViewResourceId, objects);
 		routes = objects;
 		// TODO Auto-generated constructor stub
 	}
 
-	public RouteAdapter(Context context, int resource, Route[] objects) {
+	public BiyaheroRouteAdapter(Context context, int resource, BiyaheroRoute[] objects) {
 		super(context, resource, objects);
 		// TODO Auto-generated constructor stub
 	}
 
-	public RouteAdapter(Context context, int resource) {
+	public BiyaheroRouteAdapter(Context context, int resource) {
 		super(context, resource);
 		// TODO Auto-generated constructor stub
 	}
