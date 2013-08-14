@@ -5,6 +5,20 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/onebusaway-gtfs"/>
+	<classpathentry exported="true" kind="lib" path="/home/rey/coding/onebusaway-csv-entities/onebusaway-csv-entities-1.1.1.jar" sourcepath="/home/rey/coding/onebusaway-csv-entities/onebusaway-csv-entities-1.1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/rey/coding/onebusaway-csv-entities/onebusaway-csv-entities-1.1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="/home/rey/coding/onebusaway-gtfs-modules/onebusaway-gtfs-1.3.2.jar" sourcepath="/home/rey/coding/onebusaway-gtfs-modules/onebusaway-gtfs-1.3.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/rey/coding/onebusaway-csv-entities/onebusaway-csv-entities-1.1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="/home/rey/coding/opencsv-2.3/deploy/opencsv-2.3.jar" sourcepath="/home/rey/coding/opencsv-2.3/src">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/home/rey/coding/opencsv-2.3/doc/api/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

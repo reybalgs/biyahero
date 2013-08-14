@@ -7,7 +7,7 @@
     <string name="title_activity_my_routes">My Routes</string>
     <string name="view_map_placeholder">View Map goes here I think!</string>
     <string name="traffic_advisory_placeholder">Traffic advisory should go here</string>
-    
+
     <!-- UI-related strings -->
     <string name="add_route">Add a Route</string>
 
@@ -26,9 +26,10 @@
 
     <string name="title_activity_view_map">Biyahero</string>
     <string name="title_activity_transit_info">BiyaHero</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">Rail Transit</string>
+    <string name="title_section2">Bus</string>
+    <string name="title_section3">Jeepney</string>
     <string name="title_activity_traffic_advisory">BiyaHero</string>
+    <string name="title_activity_gtfsrwtest">GTFSRWTest</string>
 
 </resources>
