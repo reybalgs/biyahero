@@ -52,6 +52,11 @@ public class FeedRetriever {
 		}
 	}
 
+	public FeedRetriever(URL feed_url) {
+		super();
+		this.feed_url = feed_url;
+	}
+
 	public URL getFeed_url() {
 		return feed_url;
 	}
