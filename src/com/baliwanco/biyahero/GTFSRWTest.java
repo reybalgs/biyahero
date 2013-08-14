@@ -18,6 +18,7 @@ public class GTFSRWTest extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_gtfsrwtest);
 		
+		/*
 		// Create a GTFS Writer
 		GtfsWriter writer = new GtfsWriter();
 		String filename = new String("test");
@@ -41,6 +42,7 @@ public class GTFSRWTest extends Activity {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		*/
 	}
 
 	@Override
